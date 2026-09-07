@@ -1,10 +1,7 @@
 public class BiodataSaya  {
     public static void main(String[] args) {
 
-        System.out.print("nama: Nurjannah ");
+       System.out.println("Nama: Nurjannah - NIM: 2025573010108");
 
-        System.out.println("NIM: 202553010108");
-
-        System.out.print("Program Studi: Teknik Informatika");
     }
 }
