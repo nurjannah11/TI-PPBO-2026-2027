@@ -1,10 +1,11 @@
-public class HelloWorld {  // ← HARUS sama dengan nama file!
+public class HelloWorld {
     public static void main(String[] args) {
-        System.out.println("Halo,jannah!");
 
-        System.out.print("Nama: ");
-        System.out.print("jannah");
-        System.out.println();
-        System.out.println("ini baris baru");
+        // Program menampilkan biodata sederhana
+        System.out.println("Nama: NurJannah");
+
+        /* Baris di bawah ini
+           mencetak NIM mahasiswa */
+        System.out.println("NIM: 2025573010108");
     }
 }
