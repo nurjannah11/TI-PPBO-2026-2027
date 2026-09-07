@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e86667d6-3f51-4da2-9f59-33032b8c7b7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/OperatorInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/KalkulatorBangunDatar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +36,11 @@
     "Application.BiodataSaya.executor": "Run",
     "Application.DataPribadi.executor": "Run",
     "Application.HelloWorld.executor": "Run",
+    "Application.KalkulatorBangunDatar.executor": "Run",
     "Application.KonversiSuhu.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.OperatorDemo.executor": "Run",
+    "Application.OperatorInput.executor": "Run",
     "Application.ScannerDemo.executor": "Run",
     "Application.VariabelDemo.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
