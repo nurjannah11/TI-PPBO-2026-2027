@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e86667d6-3f51-4da2-9f59-33032b8c7b7a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/VariabelDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/VariabelDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OperatorDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,7 @@
   "keyToString": {
     "Application.HelloWorld.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.OperatorDemo.executor": "Run",
     "Application.VariabelDemo.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -60,5 +61,16 @@
       <updated>1788750065270</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/VariabelDemo.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
