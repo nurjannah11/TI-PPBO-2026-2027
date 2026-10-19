@@ -1,6 +1,7 @@
-public class persegi {
+public class Persegi {
     double sisi;
-    public   persegi(double sisi){
+
+    public Persegi(double sisi){
         this.sisi=sisi;
     }
     public double hitungluas(){

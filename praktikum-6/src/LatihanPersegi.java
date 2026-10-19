@@ -1,8 +1,8 @@
 public class LatihanPersegi {
     public static void main(String[] args) {
-        persegi p1 = new persegi(4);
-        persegi p2 = new persegi(6);
-        persegi p3 = new persegi(8);
+        Persegi p1 = new Persegi(4);
+        Persegi p2 = new Persegi(6);
+        Persegi p3 = new Persegi(8);
 
         System.out.println("Persegi 1");
         System.out.println("Sisi: " + p1.sisi);
