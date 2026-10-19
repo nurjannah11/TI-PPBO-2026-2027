@@ -1,7 +1,7 @@
 public class LatihanProduk {
     public static void main(String[] args) {
-        Produk p1 = new Produk("Buku", 15000);
-        Produk p2 = new Produk("Tas", 120000);
+        Produk p1 = new Produk("P001", "Buku", 15000, 10);
+        Produk p2 = new Produk("P002", "Tas", 120000, 5);
 
         System.out.println("Produk: " + p1.namaProduk);
         System.out.println("Harga: " + p1.harga);
