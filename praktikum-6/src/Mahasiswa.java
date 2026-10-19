@@ -12,8 +12,8 @@ public class Mahasiswa {
 
     // Constructor dengan parameter
     public Mahasiswa(String namaAwal, String nimAwal, double ipkAwal) {
-        nama = namaAwal;
-        nim = nimAwal;
-        ipk = ipkAwal;
+        this.nama = namaAwal;
+        this.nim = nimAwal;
+        this.ipk = ipkAwal;
     }
 }
