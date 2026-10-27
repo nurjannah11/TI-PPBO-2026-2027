@@ -29,7 +29,7 @@ public class TokoDemo {
         // 4. Cari produk termahal
         Produk termahal = daftar[0];
         for (Produk p : daftar) {
-            if (p.harga > termahal.harga) {
+            if (p.getHarga () > termahal.getHarga()) {
                 termahal = p;
             }
         }
