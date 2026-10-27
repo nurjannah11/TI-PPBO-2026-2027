@@ -1,17 +1,15 @@
 public class LatihanArrayBuku {
     public static void main(String[] args) {
-        Buku[] daftarBuku = new Buku[4];
-
-        daftarBuku[0] = new Buku("Laskar Pelangi", "Andrea Hirata", 2005);
-        daftarBuku[1] = new Buku("Bumi", "Tere Liye", 2014);
-        daftarBuku[2] = new Buku("Hujan", "Tere Liye", 2016);
-        daftarBuku[3] = new Buku("Pulang", "Tere Liye", 2020);
+        Buku[] daftar = new Buku[4];
+        daftar[0] = new Buku("Pemrograman Java", "Andi Wijaya", 2018);
+        daftar[1] = new Buku("Struktur Data", "Rina Putri", 2014);
+        daftar[2] = new Buku("Basis Data", "Dewi Lestari", 2020);
+        daftar[3] = new Buku("Jaringan Komputer", "Budi Santoso", 2012);
 
         System.out.println("Buku yang terbit setelah tahun 2015:");
-
-        for (Buku buku : daftarBuku) {
-            if (buku.tahunTerbit > 2015) {
-                System.out.println(buku.judul);
+        for (Buku b : daftar) {
+            if (b.getTahunTerbit() > 2015) {
+                System.out.println("- " + b.getJudul() + " (" + b.getTahunTerbit() + ")");
             }
         }
     }

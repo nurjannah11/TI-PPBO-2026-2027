@@ -1,16 +1,15 @@
 public class LatihanBuku {
     public static void main(String[] args) {
-        Buku buku1 = new Buku("Laskar Pelangi", "Andrea Hirata", 2005);
-        Buku buku2 = new Buku("Bumi", "Tere Liye", 2014);
+        Buku b1 = new Buku("Pemrograman Java", "Andi Wijaya", 2018);
+        Buku b2 = new Buku("Struktur Data", "Rina Putri", 2014);
 
-        System.out.println("Judul: " + buku1.judul);
-        System.out.println("Pengarang: " + buku1.pengarang);
-        System.out.println("Tahun Terbit: " + buku1.tahunTerbit);
+        System.out.println("Judul     : " + b1.getJudul());
+        System.out.println("Pengarang : " + b1.getPengarang());
+        System.out.println("Terbit    : " + b1.getTahunTerbit());
 
+        b2.setJudul("Struktur Data dan Algoritma");
+        b2.setPengarang("Rina Putri, M.Kom");
         System.out.println();
-
-        System.out.println("Judul: " + buku2.judul);
-        System.out.println("Pengarang: " + buku2.pengarang);
-        System.out.println("Tahun Terbit: " + buku2.tahunTerbit);
+        b2.tampilkanData();
     }
 }
